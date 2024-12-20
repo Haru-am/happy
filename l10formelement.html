@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Element</title>
+</head>
+<body>
+	<h3>Form Elements</h3>
+
+	<fieldset>
+		<legend>This is simple form</legend>
+
+	<form action="" method="" enctype="multipart/form-data">
+		<label for="firstname"><b>First Name</b></label>
+		<input type="text" name="firstname" id="firstname" class="" maxlength="5" minlength="2" placeholder="Enter Your First Name" autocomplete="off" value="Amy" readonly autofocus />
+
+		<br/><br/>
+
+		<label for="lastname"><b>Last Name</b></label>
+		<input type="text" name="lastname" id="lastname" class="" placeholder="Enter Your Last Name" autocomplete="off" value="Moe"  disabled />
+ 
+		<br/><br/>
+
+		<label for="age"><b>Age</b></label>
+		<input type="number" name="age" id="age" class=""  placeholder="Enter Your Age" autocomplete="off"  />
+
+		<br/><br/>
+
+		<label for="password"><b>Password</b></label>
+		<input type="password" name="password" id="password" class="" placeholder="Enter Your Password" autocomplete="off"  />
+
+		<br/><br/>
+
+		<label><b>Gender</b></label>
+		<input type="radio" name="gender" id="genderm" class="" value="male" /><label for="genderm"><b>Male</b></label>
+		<input type="radio" name="gender" id="genderf" class="" value="female" /><label for="genderf"><b>Female</b></label>
+		<input type="radio" name="gender" id="gendero" class="" value="other" /><label for="gendero"><b>Other</b></label>
+
+		<br/><br/>
+
+		<label><b>Choose your fav colors</b></label>
+		<input type="checkbox" name="favcolor" id="favrd" class="" value="1" checked /><label for="favrd"><b>Red</b></label>
+		<input type="checkbox" name="favcolor" id="favgr" class="" value="2" checked /><label for="favgr"><b>Green</b></label>
+		<input type="checkbox" name="favcolor" id="favbl" class="" value="3" checked /><label for="favbl"><b>Blue</b></label>
+		<input type="checkbox" name="favcolor" id="favwh" class="" value="4" checked /><label for="favwh"><b>White</b></label>
+
+		<br/><br/>
+
+		<label><b>Fruits</b></label>
+		<input type="radio" name="fruit" id="fruitap" class="" value="1" checked /><label for="fruitap"><b>Apple</b></label>
+		<input type="radio" name="fruit" id="fruitor" class="" value="2" checked /><label for="fruitor"><b>Orange</b></label>
+		<input type="radio" name="fruit" id="fruitgr" class="" value="3" checked /><label for="fruitgr"><b>Grape</b></label>
+
+		<br/><br/>
+
+		<label for="country">Citizen</label>
+		<select name="country" id="country" class="" >
+			<option selected disabled>Choose a country</option>
+			<option value="1">Myanmar</option>
+			<option value="2">Japan</option>
+			<option value="3">Dubai</option>
+			<option value="4">Singapore</option>
+		</select>
+
+		<br/><br/>
+
+		<label for="role">Role</label> 
+		<select name="role[]" id="role" class="" multiple>
+			<!-- <option selected disabled>Choose a role</option> -->
+			<option value="1">Manager</option>
+			<option value="2">Supervisor</option>
+			<option value="3">Editor</option>
+			<option value="4">Sales</option>
+		</select>
+
+		<br/><br/>
+
+		<label for="dob">DOB</label>
+		<input type="date" name="dob" id="dob" class="">
+
+		<br/><br/>
+
+		<label for="bookingtime">Booking Time</label>
+		<input type="time" name="bookingtime" id="bookingtime" class="">
+
+		<br/><br/>
+
+		<label for="appointment">Appointment</label>
+		<input type="datetime-local" name="appointment" id="appointment" class="">
+
+		<br/><br/>
+
+		<label for="volume">Volume</label>
+		<input type="range" name="volume" id="volume" class="" min="0" max="100" value="20" step="20">
+
+		<br/><br/>
+
+		<label for="nrc">NRC</label>
+		<input type="file" name="nrc" id="nrc" class="" accept="image/*" capture="user" multiple>
+
+		<br/><br/>
+
+		<label for="vdo">Video</label>
+		<input type="file" name="vdo" id="vdo" class="" accept="video/*" capture="environment" multiple>
+
+		<br/><br/>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" class="" placeholder="Enter Your E-mail">
+
+		<br/><br/>
+
+		<label for="bio">Bio</label>
+		<textarea name="bio" id="bio" class="" rows="5" spellcheck="true" placeholder="Enter Your Bio"></textarea>
+
+		<br/><br/>
+
+		<input type="time" name="test" id="test" class="" hidden/>
+		<input type="hidden" name="lat" id="lat" class="" />
+
+		<br/><br/>
+
+		<input type="reset" name="cancels" id="cancels" class="" value="Cancel">
+		<input type="button" name="login" id="login" class="" value="Login">
+		<input type="submit" name="signup" id="signup" class="" value="Submit">
+
+		<br/><br/>
+
+		<button type="reset" name="cancel" id="cancel" class="">Cancel</button>
+		<button type="button" name="register" id="register" class="">Register</button>
+		<button type="submit" name="signup" id="signup" class="">Signup</button>
+
+
+
+
+
+
+
+
+
+
+	</form>
+	</fieldset>
+
+</body>
+</html>
